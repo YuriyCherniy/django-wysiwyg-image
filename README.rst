@@ -1,11 +1,8 @@
 =====
-Polls
+django-wysiwyg-image
 =====
 
-Polls is a Django app to conduct web-based polls. For each question,
-visitors can choose between a fixed number of answers.
-
-Detailed documentation is in the "docs" directory.
+An easy way to paste images to wysiwyg editors in Django admin interface. All it needs from you is to download an image through standard Django interface, and you will get a url to provide to wysiwyg editor. 
 
 Quick start
 -----------
