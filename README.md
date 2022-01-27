@@ -9,11 +9,11 @@ Install using ``pip``...
 
     pip install django-wysiwyg-image
 
-Add ``'wysiwug_img'`` to your ``INSTALLED_APPS`` setting.
+Add ``'wysiwyg_img'`` to your ``INSTALLED_APPS`` setting.
 
     INSTALLED_APPS = [
     ...
-    'wusiwyg_img',
+    'wysiwyg_img',
 ]
 
 **Usage:**
