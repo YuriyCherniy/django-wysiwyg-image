@@ -4,7 +4,7 @@ An easy way to paste images to wysiwyg editors in Django admin interface. All it
 
 Requirements:
 -------------
-The application was tested with Python 3.6 and Django 3.2
+Application was tested with Python 3.6 and Django 3.2
 
 Installation:
 -------------
@@ -23,7 +23,7 @@ Add ``'wysiwyg_img'`` to your ``INSTALLED_APPS`` setting.
 
 **Usage:**
 
-Let's imagine we have a blog with Post model in which we want to paste images by wysiwyg editor (in our tutorial django-tinymce editor). First up we're going to import ``BaseImageModel`` from ``wysiwyg_img.models`` and inherite from it our ``PostImage`` model. Then we have to tie by ``ForeignKey`` ``PostImage`` model to ``Post`` model. Now our ``models.py`` file should look like this:
+Let's imagine we have a blog with ``Post`` model in which we want to paste images by wysiwyg editor (in our tutorial django-tinymce editor). First up we're going to import ``BaseImageModel`` from ``wysiwyg_img.models`` and inherite from it our ``PostImage`` model. Then we have to tie by ``ForeignKey`` ``PostImage`` model to ``Post`` model. Now our ``models.py`` file should look like this:
 
 ```
 from django.db import models
