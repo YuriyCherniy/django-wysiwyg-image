@@ -30,6 +30,7 @@ class PostImage(BaseImageModel):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
 ```
 Run ``./manage makemigrations`` and ``./manage.py migrate``.
+
 We also need do some configurations in ``admin.py`` file of current application:
 
 ```
