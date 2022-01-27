@@ -14,7 +14,7 @@ class BaseImageModel(models.Model):
 
     def get_image_url(self):
         return mark_safe(f'<h3>{self.image.url}</h3>')
-    get_image_url.short_description = 'link to past'
+    get_image_url.short_description = 'link to paste'
 
     def construct_image_tag(self):
         return mark_safe(f'<img src="{self.image.url}" width="{self.image_width}" height="auto"/>')
