@@ -38,7 +38,7 @@ from django.contrib import admin
 
 from wysiwyg_img.admin import ImageInline
 
-from post.models import Post, PostImage
+from posts.models import Post, PostImage
 
 
 class ImageInline(ImageInline):
