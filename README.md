@@ -11,10 +11,10 @@ Install using ``pip``...
 
 Add ``'wysiwyg_img'`` to your ``INSTALLED_APPS`` setting.
 
-    INSTALLED_APPS = [
-    ...
-    'wysiwyg_img',
-]
+        INSTALLED_APPS = [
+        ...
+        'wysiwyg_img',
+    ]
 
 **Usage:**
 
