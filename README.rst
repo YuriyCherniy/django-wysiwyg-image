@@ -2,17 +2,14 @@
 django-wysiwyg-image
 =====
 
-An easy way to paste images to wysiwyg editors in Django admin interface. All it needs from you is to download an image through standard Django interface, and you will get a url to provide to wysiwyg editor. 
+An easy way to paste images to wysiwyg editors in Django admin interface. All it needs from you is to download an image through standard Django interface, and you will get a url to provide to your wysiwyg editor. 
 
 Quick start
 -----------
 
-1. Add "polls" to your INSTALLED_APPS setting like this::
+Installation::
 
-    INSTALLED_APPS = [
-        ...
-        'polls',
-    ]
+    pip install django-wysiwyg-image
 
 2. Include the polls URLconf in your project urls.py like this::
 
