@@ -25,7 +25,7 @@ Add ``'wysiwyg_img'`` to your ``INSTALLED_APPS`` setting.
 
 >Important! This tutorial does not cover basic Django configurations, installations of third party apps like django-tinymce, Pillow etc.
 
-Let's imagine we have a ``posts`` app in Django project with ``Post`` model in which we want to paste images by wysiwyg editor (in our case django-tinymce editor). First up we're going to import ``BaseImageModel`` from ``wysiwyg_img.models`` and inherite from it our ``PostImage`` model. Then we have to tie by ``ForeignKey`` ``PostImage`` model to ``Post`` model. Now our ``models.py`` file should look like this:
+Let's imagine we have a ``posts`` app in Django project with ``Post`` model in which we want to paste images by wysiwyg editor in admin interface(in our case django-tinymce editor). First up we're going to import ``BaseImageModel`` from ``wysiwyg_img.models`` and inherite from it our ``PostImage`` model. Then we have to tie by ``ForeignKey`` ``PostImage`` model to ``Post`` model. Now our ``models.py`` file should look like this:
 
 ```
 from django.db import models
