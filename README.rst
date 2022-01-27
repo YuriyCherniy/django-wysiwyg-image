@@ -7,7 +7,7 @@ An easy way to paste images to wysiwyg editors in Django admin interface. All it
 Quick start
 -----------
 
-* Installation::
+**Installation**::
 
     pip install django-wysiwyg-image
 
