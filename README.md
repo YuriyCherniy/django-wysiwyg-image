@@ -29,3 +29,4 @@ class Post(models.Model):
 class PostImage(BaseImageModel):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
 ```
+Run ``./manage makemigrations`` and ``./manage.py migrate``
