@@ -16,7 +16,6 @@ Let's imagine we have a blog with Post model in which we want to paste images by
 ```
 from django.db import models
 
-
 from tinymce import models as tinymce_models
 
 from wysiwyg_img.models import BaseImageModel
@@ -27,6 +26,6 @@ class Post(models.Model):
     tiny_mce = tinymce_models.HTMLField()
 
 
-class MyImage(BaseImageModel):
+class PostImage(BaseImageModel):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
 ```
