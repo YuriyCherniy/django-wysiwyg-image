@@ -2,9 +2,9 @@
 
 An easy way to paste images to wysiwyg editors in Django admin interface. All it needs from you is to download an image through standard Django interface, and you will get a url to provide to your wysiwyg editor.
 
-Requirements
-------------
-The applications was tested with Python 3.6 and Django 3.2
+Requirements:
+-------------
+The application was tested with Python 3.6 and Django 3.2
 
 Installation:
 -------------
