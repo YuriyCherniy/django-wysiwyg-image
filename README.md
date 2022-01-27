@@ -67,4 +67,4 @@ admin.site.register(Post, PostAdmin)
 
 ```
 That's all! Now in admin interface we have fields to download unlimited images. Each field has LINK TO PASTE value to provide to your WYSIWYG editor. Fields also have thumbnail and delete checkboxes for convenient way for managing images.
-![](images/admin_interface.png)
+(images/admin_interface.png)
