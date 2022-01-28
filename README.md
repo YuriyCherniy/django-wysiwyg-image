@@ -68,3 +68,10 @@ admin.site.register(Post, PostAdmin)
 ```
 That's all! Now in admin interface we have fields to download unlimited images associated with ``Post`` model. Each field has ``LINK TO PASTE`` value to provide to your WYSIWYG editor. Just copy it and paste to the editor window. Pay attention! Editors may not include image plugins by default. Fields also have thumbnails and delete checkboxes for convenient way for managing images.
 ![](images/admin_interface.png)
+
+Configurations:
+---------------
+
+There are two possible configurations available through ``django.conf.settings`` module.
+
+    ### WYSISWYG_IMG_UPLOAD_TO ###
