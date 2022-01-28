@@ -92,4 +92,4 @@ Integer represents thumbnail width in Django admin interface.
 Note
 ----
 
-django-wysiwyg-image app does not delete images from your filesystem automatically when you click delete button, so you'll have to implement deleting the images from the filesystem by yourself. Or you can use a brilliant app [django-cleanup](https://github.com/un1t/django-cleanup).
+``django-wysiwyg-image`` app does not delete images from your filesystem automatically when you click delete button, so you'll have to implement deleting the images from the filesystem by yourself. Or you can use a brilliant app [django-cleanup](https://github.com/un1t/django-cleanup).
