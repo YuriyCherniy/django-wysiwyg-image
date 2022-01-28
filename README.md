@@ -45,7 +45,7 @@ class PostImage(BaseImageModel):
 ```
 Run ``./manage makemigrations`` and ``./manage.py migrate``.
 
-We also need do some configurations in ``admin.py`` file of current application:
+We also need to do some configurations in ``admin.py`` file of current application:
 
 ```
 from django.contrib import admin
@@ -66,5 +66,5 @@ class PostAdmin(admin.ModelAdmin):
 admin.site.register(Post, PostAdmin)
 
 ```
-That's all! Now in admin interface we have fields to download unlimited images associated with ``Post`` model. Each field has ``LINK TO PASTE`` value to provide to your WYSIWYG editor. Just copy it and paste to editor window. Pay attention! Editors may not include image plugins by default. Fields also have thumbnail and delete checkboxes for convenient way for managing images.
+That's all! Now in admin interface we have fields to download unlimited images associated with ``Post`` model. Each field has ``LINK TO PASTE`` value to provide to your WYSIWYG editor. Just copy it and paste to the editor window. Pay attention! Editors may not include image plugins by default. Fields also have thumbnails and delete checkboxes for convenient way for managing images.
 ![](images/admin_interface.png)
