@@ -74,8 +74,10 @@ Settings:
 
 There are two possible configurations available through ``django.conf.settings`` module.
 
-***WYSISWYG_IMG_UPLOAD_TO***
-Default: ```''```
+**WYSISWYG_IMG_UPLOAD_TO**
 
-***WYSISWYG_IMG_IMAGE_WIDTH***
-Default: 150
+    Default: ```''```
+
+**WYSISWYG_IMG_IMAGE_WIDTH**
+
+    Default: 150
