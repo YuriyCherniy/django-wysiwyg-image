@@ -78,7 +78,7 @@ There are two possible configurations available through ``django.conf.settings``
 
     Default: ''
 
-String represents path to downloaded images under your ``MEDIA_ROOT``
+String represents path to downloaded images under your ``MEDIA_ROOT`` It works exactly as [FileField.upload_to](https://docs.djangoproject.com/en/3.2/ref/models/fields/#django.db.models.FileField.upload_to).
 >Important! Every time you change this setting, you must run ``makemigrations`` and ``migrate`` command to create and apply migrations.
 
 <br/>
