@@ -75,15 +75,15 @@ Settings:
 There are two possible configurations available through ``django.conf.settings`` module.
 
 **WYSISWYG_IMG_UPLOAD_TO**
+--------------------------
 
     Default: ''
 
 String represents path to downloaded images under your ``MEDIA_ROOT``
 >Important! Every time you change this setting, you must run ``makemigrations`` and ``migrate`` command to create and apply migrations.
 
-<br/>
-
 **WYSISWYG_IMG_IMAGE_WIDTH**
+----------------------------
 
     Default: 150
 
