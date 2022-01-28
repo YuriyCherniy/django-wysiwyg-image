@@ -75,7 +75,7 @@ Settings:
 There are two possible configurations available through ``django.conf.settings`` module.
 
 WYSISWYG_IMG_UPLOAD_TO
---------------------------
+======================
 
     Default: ''
 
