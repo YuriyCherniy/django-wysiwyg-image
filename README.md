@@ -82,6 +82,7 @@ String represents path to downloaded images under your ``MEDIA_ROOT``
 >Important! Every time you change this setting, you must run ``makemigrations`` and ``migrate`` command to create and apply migrations.
 
 
+
 **WYSISWYG_IMG_IMAGE_WIDTH**
 
     Default: 150
