@@ -1,6 +1,6 @@
 # django-wysiwyg-image #
 
-An easy way to paste images to wysiwyg editors in Django admin interface. All it needs from you is to download an image through standard Django interface, and you will get a url to provide to your wysiwyg editor.
+An easy way to paste images to wysiwyg editors in Django admin interface. All it needs from you is to upload an image through standard Django interface, and you will get a URL to provide to your wysiwyg editor.
 
 Requirements:
 -------------
