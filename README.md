@@ -25,7 +25,7 @@ Add ``'wysiwyg_img'`` to your ``INSTALLED_APPS`` setting.
 
 >Important! This tutorial does not cover basic Django configurations, installations of third party apps like django-tinymce, Pillow etc.
 
-Let's imagine we have a ``posts`` app in Django project with ``Post`` model in which we want to paste images by wysiwyg editor in admin interface(in our case django-tinymce editor). First up we're going to import ``BaseImageModel`` from ``wysiwyg_img.models`` and inherite from it our ``PostImage`` model. Then we have to tie by ``ForeignKey`` ``PostImage`` model to ``Post`` model. Now our ``models.py`` file should look like this:
+Let's imagine we have a ``posts`` app in Django project with ``Post`` model in which we want to paste images by wysiwyg editor in admin interface(in our case django-tinymce editor). First up we're going to import ``BaseImageModel`` from ``wysiwyg_img.models`` and inherite from it our ``PostImage`` model. Then we have to tie  ``PostImage`` model to ``Post`` model by ``ForeignKey``. Now our ``models.py`` file should look like this:
 
 ```
 from django.db import models
@@ -92,4 +92,4 @@ Integer represents thumbnail width in Django admin interface.
 Note
 ----
 
-``django-wysiwyg-image`` app does not delete images from your filesystem automatically when you click delete button, so you'll have to implement deleting the images from the filesystem by yourself. Or you can use a brilliant app [django-cleanup](https://github.com/un1t/django-cleanup).
+``django-wysiwyg-image`` app does not delete images from your filesystem automatically when you click delete button, so you'll have to implement deleting the images from the filesystem by yourself. Or you can use a brilliant app for that purpose: [django-cleanup](https://github.com/un1t/django-cleanup).
