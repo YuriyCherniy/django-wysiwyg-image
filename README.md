@@ -43,7 +43,8 @@ class Post(models.Model):
 class PostImage(BaseImageModel):
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
 ```
-Run ``./manage makemigrations`` and ``./manage.py migrate``.
+Run ``./manage.py makemigrations`` and ``./manage.py migrate``.
+>Do not forget to install django-tinymce and Pillow before running migrations.
 
 We also need to do some configurations in ``admin.py`` file of current application:
 
