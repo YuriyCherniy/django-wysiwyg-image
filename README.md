@@ -46,6 +46,7 @@ class PostImage(BaseImageModel):
 Run ``./manage.py makemigrations`` and ``./manage.py migrate``.
 >Do not forget to install django-tinymce and Pillow before running migrations.
 
+<br/>
 
 We also need to do some configurations in ``admin.py`` file of current application:
 
