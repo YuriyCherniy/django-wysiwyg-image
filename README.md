@@ -4,7 +4,7 @@ An easy way to paste images to wysiwyg editors in Django admin interface. All it
 
 Requirements:
 -------------
-Application was tested with Python 3.6 and Django 3.2
+Application was tested with Python 3.6 and Django 2.2, 3.2
 
 Installation:
 -------------
