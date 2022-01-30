@@ -55,12 +55,12 @@ from wysiwyg_img.admin import ImageInline
 from posts.models import Post, PostImage
 
 
-class ImageInline(ImageInline):
+class PostImageInline(ImageInline):
     model = PostImage
 
 class PostAdmin(admin.ModelAdmin):
     inlines = [
-        ImageInline,
+        PostImageInline,
     ]
 
 admin.site.register(Post, PostAdmin)
